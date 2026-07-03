@@ -1,0 +1,29 @@
+{
+  "candidates": [
+    {
+      "url": "https://images.unsplash.com/photo-1624727828489-a1e03b79bba8?fm=jpg&q=60&w=3000&auto=format&fit=crop",
+      "alt": "Woman in scrubs holding a heart-shaped stethoscope"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1584432810601-6c7f27d2362b?fm=jpg&q=60&w=3000&auto=format&fit=crop",
+      "alt": "Woman in white button-up shirt with a blue stethoscope"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1638202993928-7267aad84c31?fm=jpg&q=60&w=3000&auto=format&fit=crop",
+      "alt": "Woman in a white shirt holding a stethoscope"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1691139601099-932c01ec198b?fm=jpg&q=60&w=3000&auto=format&fit=crop",
+      "alt": "Nurse practitioner and colleague in blue scrubs"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?fm=jpg&q=60&w=3000&auto=format&fit=crop",
+      "alt": "Nurse practitioner in white scrubs reviewing patient records on a laptop"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1659353888906-adb3e0041693?fm=jpg&q=60&w=3000&auto=format&fit=crop",
+      "alt": "Healthcare provider in a white coat"
+    }
+  ],
+  "source": "ai_search"
+}
