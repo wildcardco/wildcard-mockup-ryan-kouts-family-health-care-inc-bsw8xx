@@ -201,6 +201,15 @@
   }
   .hero-art svg { width: 100%; height: auto; }
 
+  .hero-photo {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    object-fit: cover;
+    max-height: 260px;
+  }
+
   .hero-facts {
     margin-top: 1.5rem;
     display: grid;
@@ -278,6 +287,29 @@
     margin: 0;
   }
 
+  /* Gallery */
+  .photo-grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 2.2rem;
+  }
+  @media (min-width: 700px) {
+    .photo-grid { grid-template-columns: repeat(4, 1fr); }
+  }
+  .photo-grid figure {
+    margin: 0;
+    border-radius: var(--radius);
+    overflow: hidden;
+    box-shadow: var(--shadow);
+    border: 1px solid #e3e9e6;
+  }
+  .photo-grid img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+  }
+
   /* About */
   .about {
     background: var(--green-light);
@@ -302,6 +334,14 @@
     color: var(--text-muted);
   }
   .about ul li { margin-bottom: 0.5rem; }
+
+  .about-photo {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 1.2rem;
+  }
 
   .badge-row {
     display: flex;
@@ -455,7 +495,8 @@
           <div><strong>Kouts, IN</strong>Local &amp; Convenient</div>
         </div>
       </div>
-      <div class="hero-art" aria-hidden="true">
+      <div class="hero-art">
+        <img class="hero-photo" src="https://images.unsplash.com/photo-1624727828489-a1e03b79bba8?fm=jpg&q=60&w=3000&auto=format&fit=crop" alt="Nurse practitioner providing friendly primary care">
         <svg viewBox="0 0 400 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Illustration of a caregiver and family">
           <rect x="0" y="0" width="400" height="320" rx="16" fill="#e9f3ee"/>
           <circle cx="120" cy="140" r="46" fill="#4b8b73"/>
@@ -536,6 +577,21 @@
         <h3 style="margin-bottom:0.3rem;">Health &amp; Wellness Counseling</h3>
         <p>Guidance on nutrition, lifestyle, and preventive habits to help you and your family feel your best year-round.</p>
       </div>
+
+      <div class="photo-grid">
+        <figure>
+          <img src="https://images.unsplash.com/photo-1584432810601-6c7f27d2362b?fm=jpg&q=60&w=3000&auto=format&fit=crop" alt="Clinician reviewing patient care plan">
+        </figure>
+        <figure>
+          <img src="https://images.unsplash.com/photo-1638202993928-7267aad84c31?fm=jpg&q=60&w=3000&auto=format&fit=crop" alt="Health screening equipment at the clinic">
+        </figure>
+        <figure>
+          <img src="https://images.unsplash.com/photo-1691139601099-932c01ec198b?fm=jpg&q=60&w=3000&auto=format&fit=crop" alt="Patient consultation in a welcoming exam room">
+        </figure>
+        <figure>
+          <img src="https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?fm=jpg&q=60&w=3000&auto=format&fit=crop" alt="Friendly checkup for a family member">
+        </figure>
+      </div>
     </div>
   </section>
 
@@ -543,6 +599,7 @@
   <section id="about" class="about">
     <div class="container about-grid">
       <div class="about-card">
+        <img class="about-photo" src="https://images.unsplash.com/photo-1659353888906-adb3e0041693?fm=jpg&q=60&w=3000&auto=format&fit=crop" alt="Kouts Family Health Care team caring for a patient">
         <h2>Rooted in the Kouts Community</h2>
         <p>Kouts Family Health Care Inc is proud to serve families, adults, and seniors throughout Kouts, Indiana and the surrounding Porter County area. As a nurse practitioner-led clinic, we take a personal, attentive approach to care — getting to know you and your family, not just your chart.</p>
         <div class="badge-row">
